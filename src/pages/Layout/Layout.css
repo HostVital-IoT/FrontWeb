@@ -1,0 +1,7 @@
+.Layout{
+    background: linear-gradient(0deg, rgba(20, 19, 19, 0.5), rgba(20, 19, 19, 0.5)), url("/src/images/hero.jpg");
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+    width:100%;
+}

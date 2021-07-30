@@ -1,0 +1,66 @@
+.Landing{
+   height: fit-content; 
+   width: 100%;
+}
+
+.h1__title{
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.mainbox{
+    display: flex;
+    align-content: center;
+}
+
+.Sensors{
+    text-align: center;
+    margin-left: 15%;
+    background-color: rgba(20,20,20, 0.5);
+    border-radius: 20px;
+}
+
+.Sensors img{
+    height: 200px;
+    width: 250px;
+    align-content: center;
+}
+
+.Temp {
+margin-left: 25%;
+background-color: rgba(20,20,20, 0.5);
+border-radius: 20px;
+}
+
+.Temp img{
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.phonebox img{
+    display: flex;
+    height: 600px;
+    margin-left: 30%;
+    align-content: center;
+}
+
+.h2{
+    color: white;
+    text-align: center;
+}
+
+.Googleone{
+    height: 150px;
+    width: 350px;
+    float: left;
+    margin-left: 400px;
+}
+.Apple{
+    height: 100px;
+    margin-top: 25px;
+}
