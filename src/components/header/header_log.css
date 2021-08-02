@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.Header{
+    background-color: rgba(0, 0, 0, 0.72);
+    max-height: 70px;
+}
+
+.logo_header img{
+    top: 0;
+    height: 70px;
+    width: 70px;
+}
+
+.logo_header p{
+    color: azure;
+    position: absolute;
+    top: -0.85%;
+    left: 3.8%;
+    font-size: x-large;
+}
+
+.links{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+.links .About_log{
+    top: 0.5%;
+    right: 6.2%;
+    position: absolute;
+    color: azure;
+}
+
+.links .Line_log{
+    position: absolute;
+    color: azure;
+    top: -3%;
+    right: 5%;
+    height: 20cm;
+    font-size: 1cm;
+}
+
+.links .Sign_log{
+    top: 0.5%;
+    right: 1%;
+    position: absolute;
+    color: azure;
+}
