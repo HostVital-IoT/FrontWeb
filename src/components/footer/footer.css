@@ -1,0 +1,68 @@
+.Footer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.72);
+    z-index: 500;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+.sm_icons{
+    list-style-type: none;
+}
+.logo_footer{
+    height: 70px;
+}
+
+.logo_footer img{
+    position: relative;
+    bottom: 0;
+    height: 70px;
+    width: 70px;
+}
+
+.logo_footer p{
+    position: absolute;
+    bottom: -0.25%;
+    left: 3.8%;
+    color: azure;
+    font-size: x-large;
+    cursor: default;
+}
+
+.Face{
+    position: absolute;
+    color: azure;
+    top: 16%;
+    right: 5.5%;
+    
+}
+
+.Face:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.Twit{
+    position: absolute;
+    color: azure;
+    top: 14%;
+    right: 2.5%;
+    
+}
+
+.Twit:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.Insta{
+    position: absolute;
+    color: azure;
+    top: 16%;
+    right: 8%;
+}
+
+.Insta:hover{
+    color: aqua;
+    cursor: pointer;
+}
