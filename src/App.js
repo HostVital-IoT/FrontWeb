@@ -1,17 +1,16 @@
 import React from 'react';
-import {BrowserRouter,Route,Switch} from "react-router-dom"
-import LandingPage from "./pages/Landing/LandingPage"
-import Layout from './pages/Layout/Layout';
+import Landing from './pages/Landing/Landing.jsx'
+import LogIn from './pages/Login/Login.jsx';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
 function App() {
   return (
     <BrowserRouter>
-    <Layout>
-        <Switch>
-          <Route exact path="/" component={LandingPage}></Route>
-        </Switch>
-    </Layout>
+      <Switch>
+        <Route exact path="/" component={Landing}></Route>
+        <Route exact path="/login" component={LogIn}></Route>
+      </Switch>
     </BrowserRouter>
-
   );
 }
 
