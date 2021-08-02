@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import HV from '../../img/HV.png';
 import './footer.css';
 
 
@@ -20,7 +19,7 @@ class Footer extends React.Component {
                     <body>
                         <div className="Footer">
                             <div className="logo_footer">
-                                <img src={HV} alt="HV_logo" />
+                                <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV_logo" />
                                 <p>HostVital</p>
                             </div>
                             <ul className="sm_icons">
