@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HV from '../../img/HV.png'
 import './header_log.css'
 
 
@@ -11,7 +10,7 @@ class Header_log extends React.Component {
                 <div className="Header">
                     <div className="logo_header">
                         <Link to="/">
-                            <img src={HV} alt="HV_logo" />
+                            <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV_logo" />
                             <p>HostVital</p>
                         </Link>
                     </div>
