@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.Header{
+    background-color: rgb(0, 0, 0);
+    max-height: 70px;
+}
+
+.logo_header img{
+    top: 0;
+    height: 70px;
+    width: 70px;
+}
+
+.logo_header p{
+    color: azure;
+    position: absolute;
+    top: -0.85%;
+    left: 3.8%;
+    font-size: x-large;
+    
+}
+
+.links{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+.links .About{
+    top: 0.5%;
+    right: 10%;
+    position: absolute;
+    color: azure;
+}
+
+.links .Line{
+    position: absolute;
+    color: azure;
+    top: -3%;
+    right: 8.82%;
+    height: 20cm;
+    font-size: 1cm;
+}
+
+.links .Log{
+    top: 0.5%;
+    right: 5.3%;
+    position: absolute;
+    color: azure;
+}
+
+.links .Sign{
+    top: 0.5%;
+    right: 1%;
+    position: absolute;
+    color: azure;
+}
+
+.links .Sign_button{
+    color: azure;
+    position: absolute;
+    top: 2.1%;
+    right: 0.59%;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Sign_Modal_Header{
+    position: relative;
+    background-color: rgba(29, 27, 27, 0.61);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+
+}
+
+.Sign_Modal_Body{
+    position: relative;
+    background-color: rgba(29, 27, 27, 0.61);
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 500px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.Sign_Modal_Body h1{
+    position: absolute;
+    color: azure;
+    margin: auto;
+    left: 5em;
+    font-family: "Gowun Batang", sans-serif;
+    
+}
+
+.Sign_Modal_Body p{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    color: azure;
+    top: 0;
+    left: 95%;
+    right: 0;
+    bottom: 96%;
+    margin: auto;
+    background-color: black;
+    border-radius: 45px;
+    font-size: large;
+}
+.Sign_Modal_Body p:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.s_username{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    width: auto;
+    height: 50px;
+    width: 300px;
+    color: azure;
+    outline-width: 0;
+    background-color: black;
+    border-radius: 45px;
+    border-color: rgb(0, 110, 255);
+    border-width: 2.5px;
+    border-style: solid;
+    text-align: center;
+    font-family: "Gowun Batang", sans-serif;
+    font-size: larger;
+
+}
+
+.s_password{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    width: auto;
+    height: 50px;
+    width: 300px;
+    color: azure;
+    outline-width: 0;
+    background-color: black;
+    border-radius: 45px;
+    border-color: rgb(0, 110, 255);
+    border-width: 2.5px;
+    border-style: solid;
+    text-align: center;
+    font-family: "Gowun Batang", sans-serif;
+    font-size: larger;
+}
+
+.s_confirm_password{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -10%;
+    width: auto;
+    height: 50px;
+    width: 300px;
+    color: azure;
+    outline-width: 0;
+    background-color: black;
+    border-radius: 45px;
+    border-color: rgb(0, 110, 255);
+    border-width: 2.5px;
+    border-style: solid;
+    text-align: center;
+    font-family: "Gowun Batang", sans-serif;
+    font-size: larger;
+}
+
+.s_email{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -40%;
+    width: auto;
+    height: 50px;
+    width: 300px;
+    color: azure;
+    outline-width: 0;
+    background-color: black;
+    border-radius: 45px;
+    border-color: rgb(0, 110, 255);
+    border-width: 2.5px;
+    border-style: solid;
+    text-align: center;
+    font-family: "Gowun Batang", sans-serif;
+    font-size: larger;
+}
+
+.sign_button{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -70%;
+    height: 35px;
+    width: 150px;
+    color: azure;
+    background-color: black;
+    border-radius: 45px;
+    border-color: aquamarine;
+    border-style: solid;
+    font-size: large;
+    font-family: "Gowun Batang", sans-serif;
+}
+
+.sign_button:hover{
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
