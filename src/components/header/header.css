@@ -84,7 +84,7 @@
 
 .Sign_Modal_Body{
     position: relative;
-    background-color: rgba(29, 27, 27, 0.61);
+    background-color: rgb(29, 27, 27);
     top: 120px;
     left: 0;
     right: 0;
@@ -92,7 +92,7 @@
     margin: auto;
     height: 500px;
     width: 450px;
-    border-radius: 25px;
+    
 }
 
 .Sign_Modal_Body h1{

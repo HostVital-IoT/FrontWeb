@@ -10,9 +10,9 @@ Body{
     position: absolute;
     width: 450px;
     height: 500px;
-    top: 40%;
+    top: 25%;
     right: 36.5%;
-    background-color: transparent;
+    background-color: rgba(29, 27, 27, 0.61);
     border-radius: 45px;
   
 }
@@ -42,9 +42,9 @@ Body{
 
 ._username{
     position: relative;
-    background-color: rgba(196, 196, 196, 0.774);
+    background-color: black;
     border-radius: 45px;
-    border-color: transparent;
+    border-color: rgb(0, 110, 255);
     border-width: 2.5px;
     text-align: center;
     top: 1em;
@@ -52,7 +52,7 @@ Body{
     height: 50px;
     width: 300px;
     outline-width: 0;
-    
+    color: azure;
     font-size: larger;
     font-family: "Gowun Batang", sans-serif;
     border-style: solid;
@@ -60,9 +60,9 @@ Body{
 
 ._password{
     position: relative;
-    background-color: rgba(196, 196, 196, 0.774);
+    background-color: black;
     border-radius: 45px;
-    border-color: transparent;
+    border-color: rgb(0, 110, 255);
     border-width: 2.5px;
     text-align: center;
     top: 3em;
@@ -70,6 +70,7 @@ Body{
     height: 50px;
     width: 300px;
     outline-width: 0;
+    color: azure;
     font-size: larger;
     font-family: "Gowun Batang", sans-serif;
     border-style: solid;
@@ -82,8 +83,8 @@ Body{
     border-radius: 15px;
     height: 35px;
     width: 150px;
-    background-color: rgb(16, 86, 150);
-    border-color: transparent;
+    background-color: black;
+    border-color: aquamarine;
     border-style: solid;
     color: azure;
     font-size: large;
@@ -91,44 +92,8 @@ Body{
 }
 
 .login_button:hover{
-    background-color: transparent;
-    background-color: rgb(11, 66, 117);
-    color: aliceblue;
-    cursor: pointer;
+    background-color: aquamarine;
+    border-color: rgb(17, 189, 131);
+    color: black;
 
-}
-
-.Login img{
-    position: absolute;
-    size: 5cm;
-    height: 250px;
-    width: 250px;
-    margin: auto;
-    top: -20cm;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.profile{
-    position: absolute;
-    margin: auto;
-    top: -10.75cm;
-    left: 0;
-    right: 7cm;
-    bottom: 0;
-    width: 2em;
-    height: 2em;
-    z-index: 50;
-}
-
-.lock{
-    position: absolute;
-    margin: auto;
-    top: -5.6cm;
-    left: 0;
-    right: 7cm;
-    bottom: 0;
-    width: 2em;
-    height: 2em;
 }

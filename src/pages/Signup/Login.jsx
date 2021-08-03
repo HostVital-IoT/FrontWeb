@@ -1,11 +1,9 @@
 import React from 'react'
 import Header from '../../components/header/header_log.jsx'
 import Footer from '../../components/footer/footer.jsx'
-import { BsShieldLockFill } from 'react-icons/bs'
-import { FaUserCircle } from 'react-icons/fa'
 import './Login.css'
 
-const LogIn = (props) => {
+const SignUp = (props) => {
     return (
         <React.Fragment>
             <Header></Header>
@@ -18,22 +16,14 @@ const LogIn = (props) => {
                 </head>
                 <body>
                     <div className="Login">
-                        <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" />
-
+                        <h1>LOGIN</h1>
+                        <h3>Please enter your username and password</h3>
                         <form action="">
                             <input id="username" type="text" name="username" placeholder="Username" className="_username" />
                             <input id="password" type="password" name="password" placeholder="Password" className="_password" />
                             <p>Forgot your password?</p>
                             <input id="login" type="submit" value="Login" text="login" className="login_button" />
                         </form>
-
-                        <div className="profile">
-                            <FaUserCircle size="2em"></FaUserCircle>
-                        </div>
-                        <div className="lock">
-                            <BsShieldLockFill size="2em"></BsShieldLockFill>
-                        </div>
-
                     </div>
                 </body>
             </html>
@@ -42,4 +32,4 @@ const LogIn = (props) => {
     )
 }
 
-export default LogIn
+export default SignUp

@@ -18,8 +18,7 @@ class Footer extends React.Component {
                     <body>
                         <div className="Footer">
                             <div className="logo_footer">
-                                <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV_logo" />
-                                <p>HostVital</p>
+
                             </div>
                             <ul className="sm_icons">
                                 <li className="Face"><FaFacebookF size="2.5em" /></li>
