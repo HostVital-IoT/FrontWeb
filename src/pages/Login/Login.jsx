@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/header/header_log.jsx'
 import Footer from '../../components/footer/footer.jsx'
+import { Link } from 'react-router-dom'
 import { BsShieldLockFill } from 'react-icons/bs'
 import { FaUserCircle } from 'react-icons/fa'
 import './Login.css'
@@ -23,7 +24,9 @@ const LogIn = (props) => {
                         <form action="">
                             <input id="username" type="text" name="username" placeholder="Username" className="_username" />
                             <input id="password" type="password" name="password" placeholder="Password" className="_password" />
-                            <p>Forgot your password?</p>
+                            <Link to="/signup">
+                                <p>Don't you have an account?</p>
+                            </Link>
                             <input id="login" type="submit" value="Login" text="login" className="login_button" />
                         </form>
 

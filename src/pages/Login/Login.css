@@ -10,8 +10,11 @@ Body{
     position: absolute;
     width: 450px;
     height: 500px;
-    top: 40%;
-    right: 36.5%;
+    margin: auto;
+    top: 31.2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: transparent;
     border-radius: 45px;
   
@@ -36,9 +39,11 @@ Body{
     position: relative;
     color: azure;
     top: 4em;
-    left: 8.9em;
+    left: 7.6em;
     font-family: "Gowun Batang", sans-serif;
     text-decoration: underline;
+    cursor: pointer;
+    width: 202px;
 }
 
 ._username{
