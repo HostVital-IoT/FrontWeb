@@ -17,10 +17,12 @@ class Header_log extends React.Component {
                     <div className="links">
                         <p className="About_log">About Us</p>
                         <p className="Line_log">|</p>
-                        <p className="Sign_log">Sign Up</p>
+                        <Link to={"/signup"}>
+                            < p className="Sign_log">Sign Up</p>
+                        </Link>
                     </div>
                 </div>
-            </React.Fragment>
+            </React.Fragment >
         )
     }
 }

@@ -104,25 +104,17 @@
     
 }
 
-.Sign_Modal_Body p{
+._X{
     position: absolute;
-    text-align: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    color: azure;
-    top: 0;
-    left: 95%;
-    right: 0;
-    bottom: 96%;
+    color: aliceblue;
     margin: auto;
-    background-color: black;
-    border-radius: 45px;
-    font-size: large;
-}
-.Sign_Modal_Body p:hover{
-    color: brown;
+    top: -5px;
+    left: 440px;
     cursor: pointer;
+}
+._X:hover{
+    color: brown;
+    size: 40px;
 }
 
 .s_username{

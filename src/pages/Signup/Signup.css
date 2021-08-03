@@ -6,50 +6,41 @@ Body{
     background-size: 1920px 1080px ;
 }
 
-.Login{
+.Sign_up{
     position: absolute;
     width: 450px;
     height: 500px;
-    top: 40%;
-    right: 36.5%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: transparent;
     border-radius: 45px;
   
 }
 
-.Login h1{
-    position: relative;
-    left: 38%;
-    color: azure;
-    font-family: "Gowun Batang", sans-serif;
-
+.Sign_up img{
+    position: absolute;
+    margin: auto;
+    top: -12cm;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 250px;
+    width: 250px;
 }
 
-.Login h3{
-    position: relative;
-    text-align: center;
-    color: rgba(240, 255, 255, 0.582);
-    font-family: "Gowun Batang", sans-serif;
-}
-
-.Login p{
-    position: relative;
-    color: azure;
-    top: 4em;
-    left: 8.9em;
-    font-family: "Gowun Batang", sans-serif;
-    text-decoration: underline;
-}
-
-._username{
-    position: relative;
+.p_username{
+    color: black;
+    position: absolute;
     background-color: rgba(196, 196, 196, 0.774);
     border-radius: 45px;
     border-color: transparent;
     border-width: 2.5px;
     text-align: center;
-    top: 1em;
-    left: 15%;
+    top: 31%;
+    left: -100px;
     height: 50px;
     width: 300px;
     outline-width: 0;
@@ -59,27 +50,64 @@ Body{
     border-style: solid;
 }
 
-._password{
-    position: relative;
+.p_password{
+    position: absolute;
     background-color: rgba(196, 196, 196, 0.774);
     border-radius: 45px;
     border-color: transparent;
     border-width: 2.5px;
     text-align: center;
-    top: 3em;
-    left: 15%;
+    top: 31%;
+    left: 250px;
     height: 50px;
     width: 300px;
     outline-width: 0;
+    
     font-size: larger;
     font-family: "Gowun Batang", sans-serif;
     border-style: solid;
 }
 
-.login_button{
+.p_confirm_password{
+    position: absolute;
+    background-color: rgba(196, 196, 196, 0.774);
+    border-radius: 45px;
+    border-color: transparent;
+    border-width: 2.5px;
+    text-align: center;
+    top: 52%;
+    left: 250px;
+    height: 50px;
+    width: 300px;
+    outline-width: 0;
+    
+    font-size: larger;
+    font-family: "Gowun Batang", sans-serif;
+    border-style: solid;
+}
+
+.p_email{
+    position: absolute;
+    background-color: rgba(196, 196, 196, 0.774);
+    border-radius: 45px;
+    border-color: transparent;
+    border-width: 2.5px;
+    text-align: center;
+    top: 52%;
+    left: -100px;
+    height: 50px;
+    width: 300px;
+    outline-width: 0;
+    
+    font-size: larger;
+    font-family: "Gowun Batang", sans-serif;
+    border-style: solid;
+}
+
+.sign_up_button{
     position: relative;
-    top: 4em;
-    left: 32.5%;
+    top: 20em;
+    left: 34%;
     border-radius: 15px;
     height: 35px;
     width: 150px;
@@ -91,7 +119,7 @@ Body{
     font-family: "Gowun Batang", sans-serif;
 }
 
-.login_button:hover{
+.sign_up_button:hover{
     background-color: transparent;
     background-color: rgb(11, 66, 117);
     color: aliceblue;
@@ -99,37 +127,27 @@ Body{
 
 }
 
-.Login img{
+.p_User{
     position: absolute;
-    size: 5cm;
-    height: 250px;
-    width: 250px;
-    margin: auto;
-    top: -20cm;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 4.41cm;
+    left: -2.3cm;
 }
 
-.profile{
+.p_Mail{
     position: absolute;
-    margin: auto;
-    top: -10.75cm;
-    left: 0;
-    right: 7cm;
-    bottom: 0;
-    width: 2em;
-    height: 2em;
-    z-index: 50;
+    top: 7.2cm;
+    left: -2.3cm;
 }
 
-.lock{
+.p_Lock{
     position: absolute;
-    margin: auto;
-    top: -5.6cm;
-    left: 0;
-    right: 7cm;
-    bottom: 0;
-    width: 2em;
-    height: 2em;
+    top: 4.41cm;
+    right: 4.1cm;
+
+}
+
+.p_Key{
+    position: absolute;
+    top: 7.2cm;
+    right: 4.1cm;
 }

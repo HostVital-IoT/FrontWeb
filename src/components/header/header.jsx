@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
+import { ImCross } from 'react-icons/im'
 import { Button, Modal, ModalBody } from 'reactstrap'
 
 
@@ -30,7 +31,9 @@ class Header extends React.Component {
                         <Link to="/login">
                             <p className="Log">Log In</p>
                         </Link>
-                        <Button className="Sign_button" onClick={this.openModal}>Sign Up</Button>
+                        <Link to="/signup">
+                            <Button className="Sign_button">Sign Up</Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -38,7 +41,8 @@ class Header extends React.Component {
                     <ModalBody className="Sign_Modal_Body">
 
                         <h1>Sign Up</h1>
-                        <p onClick={this.openModal}>X</p>
+                        <ImCross className="_X" onClick={this.openModal}></ImCross>
+
 
                         <form action="">
                             <input id="username" type="text" name="username" placeholder="username" className="s_username" />
