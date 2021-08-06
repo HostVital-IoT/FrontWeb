@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../components/header/header_log.jsx'
+import Header from '../../components/header/header.jsx'
 import Footer from '../../components/footer/footer.jsx'
 import { Link } from 'react-router-dom'
 import { BsShieldLockFill } from 'react-icons/bs'
