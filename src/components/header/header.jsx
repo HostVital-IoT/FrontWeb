@@ -32,7 +32,7 @@ class Header extends React.Component {
                             <p className="Log">Log In</p>
                         </Link>
                         <Link to="/signup">
-                            <Button className="Sign_button">Sign Up</Button>
+                            <p className="Sign">Sign Up</p>
                         </Link>
                     </div>
                 </div>

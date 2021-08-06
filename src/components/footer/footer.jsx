@@ -21,9 +21,9 @@ class Footer extends React.Component {
 
                             </div>
                             <ul className="sm_icons">
-                                <li className="Face"><FaFacebookF size="2.5em" /></li>
-                                <li className="Twit"><AiOutlineTwitter size="3em" /></li>
-                                <li className="Insta"><FaInstagram size="2.8em" /></li>
+                                <li className="Face"><FaFacebookF size="4.3vh" /></li>
+                                <li className="Twit"><AiOutlineTwitter size="5.4vh" /></li>
+                                <li className="Insta"><FaInstagram size="4.8vh" /></li>
                             </ul>
                         </div>
                     </body>
