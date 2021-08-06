@@ -1,63 +1,28 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './header.css'
-import { ImCross } from 'react-icons/im'
-import { Button, Modal, ModalBody } from 'reactstrap'
+import React from "react"
+import {Link} from "react-router-dom"
+import "./header.css"
 
 
-class Header extends React.Component {
-
-    state = {
-        isOpen: false,
-    }
-
-    openModal = () => {
-        this.setState({ isOpen: !this.state.isOpen });
-    }
-
-    render() {
-        return (
-            <React.Fragment>
-                <div className="Header">
-                    <div className="logo_header">
-                        <Link to="/">
-                            <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV_logo" />
-                            <p>HostVital</p>
-                        </Link>
-                    </div>
-                    <div className="links">
-                        <p className="About">About Us</p>
-                        <p className="Line">|</p>
-                        <Link to="/login">
-                            <p className="Log">Log In</p>
-                        </Link>
-                        <Link to="/signup">
-                            <p className="Sign">Sign Up</p>
-                        </Link>
-                    </div>
+class Header extends React.Component{
+    render(){
+        return(
+        <React.Fragment>
+            <div className="Header">
+                <div className="HeaderLeft">
+                <Link to="/">
+                    <img src="https://cdn.discordapp.com/attachments/860293871089877023/860301308695281684/hostvital.png"></img>
+                </Link>
+                <h2 className="h2Header">HostVital</h2>
                 </div>
-
-                <Modal classname="Sign_Modal" isOpen={this.state.isOpen}>
-                    <ModalBody className="Sign_Modal_Body">
-
-                        <h1>Sign Up</h1>
-                        <ImCross className="_X" onClick={this.openModal}></ImCross>
-
-
-                        <form action="">
-                            <input id="username" type="text" name="username" placeholder="username" className="s_username" />
-                            <input id="password" type="password" name="password" placeholder="password" className="s_password" />
-                            <input id="confirm_password" type="password" name="confirm_password" placeholder="confirm password" className="s_confirm_password" />
-                            <input id="email" type="email" name="email" placeholder="email" className="s_email" />
-                        </form>
-
-                        <input id="signup" type="submit" value="Sign Up" className="sign_button" />
-
-                    </ModalBody>
-                </Modal>
-            </React.Fragment>
-        )
+                <div className="HeaderRight">
+                    <a className="RightBorder" href="/">About Us</a>
+                    <a href="/signup">Sign Up</a>
+                    <a class="active" href="/login">Login</a>
+                </div>
+            </div>
+        </React.Fragment>
+        );
     }
 }
 
-export default Header
+export default Header;
