@@ -30,6 +30,7 @@
     right: 10%;
     position: absolute;
     color: azure;
+    cursor: pointer;
 }
 
 .links .Line{
@@ -39,6 +40,7 @@
     right: 8.82%;
     height: 20cm;
     font-size: 1cm;
+    cursor: default;
 }
 
 .links .Log{

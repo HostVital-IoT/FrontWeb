@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
 
-Body{
+html{
     background-image: url("https://res.cloudinary.com/dvabvj55g/image/upload/v1627611388/media/Background_rjrdkr.png");
     background-repeat: no-repeat;
-    background-size: 1920px 1080px ;
+    background-size: cover;
+
 }
 
 .Login{
@@ -20,30 +21,18 @@ Body{
   
 }
 
-.Login h1{
-    position: relative;
-    left: 38%;
-    color: azure;
-    font-family: "Gowun Batang", sans-serif;
-
-}
-
-.Login h3{
-    position: relative;
-    text-align: center;
-    color: rgba(240, 255, 255, 0.582);
-    font-family: "Gowun Batang", sans-serif;
-}
-
 .Login p{
     position: relative;
     color: azure;
     top: 4em;
     left: 7.6em;
     font-family: "Gowun Batang", sans-serif;
-    text-decoration: underline;
-    cursor: pointer;
     width: 202px;
+}
+
+.Login p:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 ._username{
