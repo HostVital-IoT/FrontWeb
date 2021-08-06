@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
 
-html{
-    background-image: url("https://res.cloudinary.com/dvabvj55g/image/upload/v1627611388/media/Background_rjrdkr.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 .Login{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 500px;
     margin: auto;
-    top: 31.2%;
+    top: 250px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -99,7 +92,7 @@ html{
     height: 250px;
     width: 250px;
     margin: auto;
-    top: -20cm;
+    top: -18cm;
     left: 0;
     right: 0;
     bottom: 0;

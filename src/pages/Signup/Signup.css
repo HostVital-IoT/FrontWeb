@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
 
-Body{
+body {
     background-image: url("https://res.cloudinary.com/dvabvj55g/image/upload/v1627611388/media/Background_rjrdkr.png");
     background-repeat: no-repeat;
-    background-size: 1920px 1080px ;
-}
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
 .Sign_up{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 500px;
     margin: auto;
-    top: 0;
+    top: 115px;
     left: 0;
     right: 0;
     bottom: 0;

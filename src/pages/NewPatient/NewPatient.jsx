@@ -8,6 +8,7 @@ const NewPatient = (props) => {
             <React.Fragment>
                 <Header></Header>
                 <div className="newPatientForm">
+                    <h2>Sign Up New Patient</h2>
                     <form action="">
                         <p>Name</p>
                         <input id="name" placeholder="John Smith" type="text" className="nameForm"/>
