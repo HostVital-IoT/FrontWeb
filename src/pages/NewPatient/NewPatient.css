@@ -1,5 +1,84 @@
 .newPatientForm{
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    width: 400px;
+    height: 550px;
 
+}
+
+h2{
+    color: white;
+}
+
+.nameForm{
+    background-color: rgba(196, 196, 196, 0.774);
+    border-radius: 45px;
+    border-color: transparent;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+
+    font-size: larger;
+    font-family: "Gowun Batang", sans-serif;
+    border-style: solid;
+}
+
+.nameHolder{
+    font-size: large;
+    font-family: "Gowun Batang", sans-serif;
+    color: white;
+}
+
+.ageForm{
+    background-color: rgba(196, 196, 196, 0.774);
+    border-radius: 45px;
+    border-color: transparent;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+
+    font-size: larger;
+    font-family: "Gowun Batang", sans-serif;
+    border-style: solid;
+}
+
+.illnessForm{
+    background-color: rgba(196, 196, 196, 0.774);
+    border-radius: 45px;
+    border-color: transparent;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+
+    font-size: larger;
+    font-family: "Gowun Batang", sans-serif;
+    border-style: solid;
+}
+
+.imageForm{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin-left: 70px;
+}
+.registerButton{
+    border-radius: 15px;
+    height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    background-color: rgb(16, 86, 150);
+    border-color: transparent;
+    border-style: solid;
+    color: azure;
+    font-size: large;
+    font-family: "Gowun Batang", sans-serif;
+}
+
+.registerButton:hover{
+    background-color: transparent;
+    background-color: rgb(11, 66, 117);
+    color: aliceblue;
+    cursor: pointer;
 }

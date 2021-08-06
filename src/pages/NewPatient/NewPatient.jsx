@@ -10,16 +10,16 @@ const NewPatient = (props) => {
                 <div className="newPatientForm">
                     <h2>Sign Up New Patient</h2>
                     <form action="">
-                        <p>Name</p>
+                        <p className="nameHolder">Name</p>
                         <input id="name" placeholder="John Smith" type="text" className="nameForm"/>
-                        <p>Age</p>
+                        <p className="nameHolder">Age</p>
                         <input id="age" placeholder="18" type="text" className="ageForm"/>
-                        <p>Illness</p>
+                        <p className="nameHolder">Illness</p>
                         <input id="illness" placeholder="Flu" type="text" className="illnessForm"/>
-                        <p>Profile Picture</p>
-                        <input type="file" name="" id="" />
+                        <p className="nameHolder">Profile Picture</p>
+                        <input type="file" name="" id="" className="imageForm"/>
                         <br />
-                        <button type="submit">Register</button>
+                        <button className="registerButton" type="submit">Register</button>
                     </form>
                 </div>
 
