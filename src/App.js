@@ -5,6 +5,7 @@ import SignUp from './pages/Signup/Signup.jsx';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NewPatient from './pages/NewPatient/NewPatient.jsx';
 import Patient from './pages/patient/patient'
+import Doctor from './pages/Doctor/Doctor.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/signup" component={SignUp}></Route>
         <Route exact path="/newpatient" component={NewPatient}></Route>
         <Route exact path="/patient"  component={Patient}></Route>
+        <Route exact path="/doctor" component={Doctor}></Route> 
       </Switch>
     </BrowserRouter>
   );

@@ -1,0 +1,30 @@
+.doctorContainer{
+    margin: 0 auto;
+    text-align: center;  
+}
+.doctorimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.doctorname{
+    font-size: larger;
+    color: white;
+}
+.doctorrating img{
+    height: 60px;
+
+}
+.drPatientsButton button{
+    margin-top: 50px;
+    border: white;
+    color: white;
+    background-color: #4BA59F;
+    height: 50px;
+    width: 110px;
+    border-radius: 25px;
+    font-size: large;
+
+}
