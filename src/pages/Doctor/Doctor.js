@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/header/header";
+import Header from "../../components/header/header2";
 import Footer from "../../components/footer/footer";
 import "./Doctor.css";
 
@@ -9,7 +9,7 @@ const Doctor = (props) =>{
         <React.Fragment>
         <Header></Header>
         <div className="doctorContainer"><div className="doctorimg">
-            <img src="https://symbiosis.ae/images/doctors/Dr_Ateeque1.png" alt="" />
+            <img src="https://i.ytimg.com/vi/esOcn5y86mM/hqdefault.jpg" alt="" />
             </div>
 
             <div className="doctorname">
