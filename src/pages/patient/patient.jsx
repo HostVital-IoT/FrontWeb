@@ -21,8 +21,8 @@ const Patient = (props) => {
       </div>
         <div className="valuescontainer">
       <div className="BloodPressure">
-        <p className="bloodvalue">110/80 mm </p>
-        <p className="bloodplaceholder">Blood Pressure</p>
+        <p className="bloodvalue">80 BPM </p>
+        <p className="bloodplaceholder">Beats per minute</p>
         <div className="BloodCircle">
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEVN/wxFqpIQAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
