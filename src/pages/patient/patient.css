@@ -1,0 +1,120 @@
+
+.PatientInfo{
+    margin: 0 auto;
+    text-align: center;  
+    width: 250px;
+}
+
+.PatientImg{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.PatientImg img{ 
+    margin-top: 30px;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+}
+.PatientName{
+    position: relative;
+    color: white;
+    font-size: x-large;
+    text-align: center;  
+    width: 250px;
+    
+}
+
+.PatientName p{
+    border-bottom: 1px solid white;
+}
+.buttonpatient{
+    border: white;
+    color: white;
+    background-color: #4BA59F;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: large;
+    border: 1px solid white;
+
+}
+
+.valuescontainer{
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.BloodPressure{
+    position:relative;
+    padding-right: 150px;
+    flex: 25%;
+    text-align: center;
+}
+
+.bloodplaceholder{
+    font-size: x-large;
+    color: white;
+}
+
+.bloodvalue{
+    border-bottom: 1px solid white;
+    font-size: x-large;
+    color: white;
+}
+
+.BloodCircle img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.OxygenLevel{
+    flex: 25%;
+    padding-right: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.oxygenvalue{
+    border-bottom: 1px solid white;
+    font-size: x-large;
+    color: white;
+}
+
+.oxygenplaceholder{
+    font-size: x-large;
+    color: white;
+}
+
+.oxygencircle img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.SugarLevel{
+    position:relative;
+    flex: 25%;
+    text-align: center;
+}
+
+.sugarvalue{
+    border-bottom: 1px solid white;
+    font-size: x-large;
+    color: white;
+}
+
+.sugarplaceholder{
+    font-size: x-large;
+    color: white;
+}
+
+.sugarcircle img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}

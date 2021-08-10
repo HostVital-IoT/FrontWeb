@@ -4,6 +4,7 @@ import LogIn from './pages/Login/Login.jsx';
 import SignUp from './pages/Signup/Signup.jsx';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NewPatient from './pages/NewPatient/NewPatient.jsx';
+import Patient from './pages/patient/patient'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/login" component={LogIn}></Route>
         <Route exact path="/signup" component={SignUp}></Route>
         <Route exact path="/newpatient" component={NewPatient}></Route>
+        <Route exact path="/patient"  component={Patient}></Route>
       </Switch>
     </BrowserRouter>
   );

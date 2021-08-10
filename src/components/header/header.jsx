@@ -10,7 +10,7 @@ class Header extends React.Component{
             <div className="Header">
                 <div className="HeaderLeft">
                 <Link to="/">
-                    <img src="https://cdn.discordapp.com/attachments/860293871089877023/860301308695281684/hostvital.png"></img>
+                    <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png"></img>
                 </Link>
                 <h2 className="h2Header">HostVital</h2>
                 </div>
