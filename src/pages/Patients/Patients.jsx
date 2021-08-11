@@ -1,7 +1,7 @@
 import React from 'react'
 import PatientsList from '../../components/Patient/PatientList'
 import api from '../../libs/flaskAPI'
-import './Patients.css'
+import './patients.css'
 
 class Patients extends React.Component {
 

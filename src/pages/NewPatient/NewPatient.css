@@ -4,12 +4,45 @@
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     width: 400px;
-    height: 550px;
+    height: 620px;
+    margin-top: -15px;
 
+}
+
+
+.Badge__header img{
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+}
+
+.Badge__info{
+    margin-top: -10px;
+    color: white;
+}
+
+.Badge__userImage img{
+width: 150px;
+height: 150px;
+border-radius: 75px;
+z-index: 2;
+
+}
+
+.Badge__userImage{
+    margin-top: -180px;
 }
 
 h2{
     color: white;
+}
+
+.Badge__username{
+    margin-top: 50px;
+}
+.Badge__username{
+    color: white;
+    margin-top: ;
 }
 
 .nameForm{
