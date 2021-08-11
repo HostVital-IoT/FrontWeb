@@ -35,7 +35,7 @@ const useSearchPatients = (patients) => {
 	const [filteredPatients, setfilteredPatients] = React.useState(patients)
 
 	React.useMemo(() => {
-		const result = patients.filter((patient) => {
+		const result = patients && patients.filter((patient) => {
 			return `${patient.name}`.toLowerCase().includes(query.toLowerCase())
 		})
 
@@ -51,7 +51,7 @@ const PatientsList = (props) => {
 
 	const { query, setQuery, filteredPatients } = useSearchPatients(patients)
 
-	if (filteredPatients.lenght === 0) {
+	if (undefined !==filteredPatients && filteredPatients.lenght) {
 		return (
 			<div>
 				<div className="form-group">
@@ -105,7 +105,7 @@ const PatientsList = (props) => {
 			</div>
 			<div className="container List mb-5">
 				<div className="list-unstyled">
-					{filteredPatients.map((patient) => {
+					{filteredPatients && filteredPatients.map((patient) => {
 						return (
 							<div key={patient._id}>
 								<Link className="text-reset text-decoration-none" to={`/${patient._id}`}>
