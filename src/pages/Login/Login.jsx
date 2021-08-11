@@ -10,27 +10,27 @@ const LogIn = (props) => {
     return (
         <React.Fragment>
             <Header></Header>
-                    <div className="Login">
-                        <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" />
+            <div className="Login">
+                <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV" />
 
-                        <form action="">
-                            <input id="username" type="text" name="username" placeholder="Username" className="_username" />
-                            <input id="password" type="password" name="password" placeholder="Password" className="_password" />
-                            <Link to="/signup">
-                                <p>Don't you have an account?</p>
-                            </Link>
-                            <input id="login" type="submit" value="Login" text="login" className="login_button" />
-                        </form>
+                <form action="">
+                    <input id="username" type="text" name="username" placeholder="Username" className="_username" />
+                    <input id="password" type="password" name="password" placeholder="Password" className="_password" />
+                    <Link to="/signup">
+                        <p>Don't you have an account?</p>
+                    </Link>
+                    <input id="login" type="submit" value="Login" text="login" className="login_button" />
+                </form>
 
-                        <div className="profile">
-                            <FaUserCircle size="2em"></FaUserCircle>
-                        </div>
-                        <div className="lock">
-                            <BsShieldLockFill size="2em"></BsShieldLockFill>
-                        </div>
+                <div className="profile">
+                    <FaUserCircle size="2em"></FaUserCircle>
+                </div>
+                <div className="lock">
+                    <BsShieldLockFill size="2em"></BsShieldLockFill>
+                </div>
 
-                    </div>
-                
+            </div>
+
             <Footer></Footer>
         </React.Fragment>
     )

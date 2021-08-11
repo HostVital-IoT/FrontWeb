@@ -4,7 +4,7 @@ import LogIn from './pages/Login/Login.jsx';
 import SignUp from './pages/Signup/Signup.jsx';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NewPatient from './pages/NewPatient/NewPatient.jsx';
-import Patient from './pages/patient/patient'
+import Patients from './pages/Patients/Patients';
 import Doctor from './pages/Doctor/Doctor.js';
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <Route exact path="/" component={Landing}></Route>
         <Route exact path="/login" component={LogIn}></Route>
         <Route exact path="/signup" component={SignUp}></Route>
-        <Route exact path="/newpatient" component={NewPatient}></Route>
-        <Route exact path="/patient"  component={Patient}></Route>
-        <Route exact path="/doctor" component={Doctor}></Route> 
+        <Route exact path="/new/patient" component={NewPatient}></Route>
+        <Route exact path="/patients" component={Patients}></Route>
+        <Route exact path="/doctor" component={Doctor}></Route>
       </Switch>
     </BrowserRouter>
   );
