@@ -1,0 +1,19 @@
+.Submit__button{
+    border-radius: 15px;
+    height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    background-color: rgb(20, 20, 20);
+    border-color: transparent;
+    border-style: solid;
+    color: azure;
+    font-size: large;
+    font-family: "Gowun Batang", sans-serif;
+}
+
+.Submit__button:hover{
+    background-color: transparent;
+    background-color: rgb(18, 96, 168);
+    color: aliceblue;
+    cursor: pointer;
+}

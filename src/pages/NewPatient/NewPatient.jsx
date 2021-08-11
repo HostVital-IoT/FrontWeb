@@ -48,11 +48,13 @@ class NewPatient extends React.Component {
             <React.Fragment >
                 <Header></Header>
                 <div className="newPatientForm">
+                    <div className="titlePatientContainer">
                     <h2>Sign Up New Patient</h2>
+                    </div>
                     <div className="Badge__inForm">
                         <Patient
-                            header_img={this.state.form.header_img || "Header Image"}
-                            profile_picture={this.state.form.profile_picture || "Profile Picture"}
+                            header_img={this.state.form.header_img || "https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg"}
+                            profile_picture={this.state.form.profile_picture || "https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=800&q=70"}
                             name={this.state.form.name || "Name"}
                             illness={this.state.form.illness || "Illness"}
                             status={this.state.form.status || "Status"}
