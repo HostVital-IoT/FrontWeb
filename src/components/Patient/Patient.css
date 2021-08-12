@@ -1,7 +1,11 @@
-.Badge__info p{
+.n_Badge__info p{
     margin-top: -20px;
 }
 
-.Badge__username h4{
+.n_Badge__username h4{
 margin-bottom: -15px;
+}
+
+.n_Badge__userImage{
+    
 }

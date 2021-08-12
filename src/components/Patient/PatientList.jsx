@@ -5,10 +5,10 @@ import "./PatientsList.css"
 class PatientsListItem extends React.Component {
 
 	handleColor = (color) => {
-		if (this.props.patient.status == 'Good') {
+		if (this.props.patient.status === 'Good') {
 			color = "#2DD25B"
 			return color
-		} else if (this.props.patient.status == 'Stable') {
+		} else if (this.props.patient.status === 'Stable') {
 			color = "#CAD452"
 			return color
 		} else {
@@ -95,18 +95,16 @@ const PatientsList = (props) => {
 			<div className="PatientsList__container">
 				<div className="PatientsList__search-bar">
 					<div className="PatientsList__search-bar__row">
-						<div className="col">
-							<div className="form-group mt-2">
-								<label>Filter Patients</label>
-								<input
-									type="text"
-									className="form-control"
-									value={query}
-									onChange={(e) => {
-										setQuery(e.target.value)
-									}}
-								/>
-							</div>
+						<div className="form-group mt-2">
+							<label>Filter Patients</label>
+							<input
+								type="text"
+								className="form-control"
+								value={query}
+								onChange={(e) => {
+									setQuery(e.target.value)
+								}}
+							/>
 						</div>
 						<Link to="/new/patient" style={{ textDecoration: 'none' }} className="pl_Link">
 							<button className="np_Button">New Patient</button>
