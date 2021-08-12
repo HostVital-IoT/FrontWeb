@@ -12,12 +12,15 @@ class NewPatient extends React.Component {
         loading: false,
         error: null,
         form: {
-            header_img: "",
-            profile_picture: "",
+            header_img: "https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg",
+            profile_picture: "https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png",
             name: "",
             age: "",
             illness: "",
-            status: ""
+            status: "",
+            blood_pressure: 0,
+            sugar_level: 0,
+            oxygen_level: 0
         }
     }
 
@@ -37,7 +40,7 @@ class NewPatient extends React.Component {
         try {
             await api.patients.create(this.state.form)
             this.setState({ loading: false, error: null })
-            this.props.history.push('/new/patient')
+            this.props.history.push('/patients')
         } catch (error) {
             this.setState({ loading: false, error: error })
         }
@@ -49,7 +52,7 @@ class NewPatient extends React.Component {
                 <Header></Header>
                 <div className="newPatientForm">
                     <div className="titlePatientContainer">
-                    <h2>Sign Up New Patient</h2>
+                        <h2>Sign Up New Patient</h2>
                     </div>
                     <div className="Badge__inForm">
                         <Patient

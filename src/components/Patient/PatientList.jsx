@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Button from '../Buttons/Button';
 import "./PatientsList.css"
 
 class PatientsListItem extends React.Component {
@@ -21,7 +20,9 @@ class PatientsListItem extends React.Component {
 							<h4 className="text-center mt-3">
 								{this.props.patient.name}
 							</h4>
-							<p className="text-center">{this.props.patient.status}</p>
+							<p className="pl_status">
+								{this.props.patient.status}
+							</p>
 						</div>
 					</div>
 				</div>
@@ -51,14 +52,14 @@ const PatientsList = (props) => {
 
 	const { query, setQuery, filteredPatients } = useSearchPatients(patients)
 
-	if (undefined !==filteredPatients && filteredPatients.lenght) {
+	if (undefined !== filteredPatients && filteredPatients.lenght) {
 		return (
 			<div>
 				<div className="form-group">
 					<label>Filter Patients</label>
 					<input
 						type="text"
-						className="form-control"
+						className="form-control SB"
 						value={query}
 						onChange={(e) => {
 							setQuery(e.target.value)
@@ -89,17 +90,9 @@ const PatientsList = (props) => {
 								/>
 							</div>
 						</div>
-						<div className="col">
-							<div className="Patients__container">
-								<div className="Patients__button">
-									<Button
-										theme={"Button-light"}
-										contentText={"New Patient"}
-										link={"/new"}
-									></Button>
-								</div>
-							</div>
-						</div>
+						<Link to="/new/patient" style={{ textDecoration: 'none' }} className="pl_Link">
+							<button className="np_Button">New Patient</button>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -108,7 +101,7 @@ const PatientsList = (props) => {
 					{filteredPatients && filteredPatients.map((patient) => {
 						return (
 							<div key={patient._id}>
-								<Link className="text-reset text-decoration-none" to={`/${patient._id}`}>
+								<Link style={{ textDecoration: 'none' }} to={`/${patient._id}`}>
 									<PatientsListItem patient={patient}></PatientsListItem>
 								</Link>
 							</div>

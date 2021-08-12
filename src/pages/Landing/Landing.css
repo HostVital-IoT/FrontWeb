@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda&display=swap');
 
 Body{
-    overflow: hidden;
+    overflow-y: auto;
 }
