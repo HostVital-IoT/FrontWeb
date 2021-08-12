@@ -34,7 +34,7 @@
     width: 600px;
     border-color: aliceblue;
     border-radius: 20px;
-    outline: 2px white solid;
+    
 }
 
 .Item__background{
@@ -77,49 +77,71 @@
 .List{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-.Link{
-    text-decoration: none;
+.pt_data{
+    outline: 2px rgb(0, 0, 0) solid;
 }
 
 .row{
     color: black;
+    text-align: center;
+   
+    width: 340px;
+    height: 100%;
 }
 .row h4{
     font-family: "Montserrat", sans-serif;
     font-size: x-large;
     position: absolute;
     top: -1em;
-    right: 23.5%;
+    right: 2.2%;
     color: black;
+  
+    width: 300px;
 }
 
 .pl_status{
     position: absolute;
+    width: 80px;
+    text-align: center;
+    align-items: center;
     font-family: "Montserrat";
     font-size: large;
     bottom: 0;
-    right: 23.5%;
+    right: 6.9em;
+  
 }
+
+.pl_illness{
+    position: absolute;
+    margin: auto;
+    width: 180px;
+    top: 2.8em;
+    right: 4.6em;
+    color: rgba(0, 0, 0, 0.479);
+   
+}
+
 .pl_Link{
     width: 120px;
     
     cursor: default;
 }
+
 .np_Button{
     position: absolute;
     margin: auto;
     top: 13%;
-    left: 46.5%;
+    left: 47%;
     cursor: pointer;
-    display: flex;
     width: 140px;
     height: 40px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border: 2px solid white;
+    border: transparent;
     border-radius: 40px;
     margin-top: 26px;
     color: white;
@@ -130,4 +152,15 @@
     background-color: rgb(14, 164, 190);
     color: white;
     font-weight: bold;
+}
+
+._bs{
+    position: absolute;
+    margin: 0;
+    right: 9.26em;
+    bottom: 3.2em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
 }

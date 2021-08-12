@@ -3,6 +3,20 @@ import { Link } from "react-router-dom"
 import "./PatientsList.css"
 
 class PatientsListItem extends React.Component {
+
+	handleColor = (color) => {
+		if (this.props.patient.status == 'Good') {
+			color = "#2DD25B"
+			return color
+		} else if (this.props.patient.status == 'Stable') {
+			color = "#CAD452"
+			return color
+		} else {
+			color = "#CE2727"
+			return color
+		}
+	}
+
 	render() {
 		return (
 			<React.Fragment>
@@ -15,7 +29,7 @@ class PatientsListItem extends React.Component {
 							<img src={this.props.patient.header_img} alt="header_background" />
 						</div>
 					</div>
-					<div className="col-7 my-5">
+					<div className="p_data">
 						<div className="row">
 							<h4 className="text-center mt-3">
 								{this.props.patient.name}
@@ -23,6 +37,10 @@ class PatientsListItem extends React.Component {
 							<p className="pl_status">
 								{this.props.patient.status}
 							</p>
+							<p className="pl_illness">
+								{this.props.patient.illness}
+							</p>
+							<div className="_bs" style={{ backgroundColor: this.handleColor() }}></div>
 						</div>
 					</div>
 				</div>
