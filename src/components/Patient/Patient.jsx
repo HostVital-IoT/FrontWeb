@@ -7,7 +7,7 @@ class Patient extends React.Component {
             <React.Fragment>
                 <div className="Badge">
                     <div className="Badge__header">
-                        <img src={this.props.header_img} />
+                        <img src={this.props.header_img} alt="" />
                     </div>
                     <div className="Badge__userInfo">
                         <div className="Badge__userImage">
