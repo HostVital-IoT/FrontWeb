@@ -4,10 +4,16 @@
     z-index: 500;
     width: 100%;
     height: 7vh;
-    bottom: 1.15em;
+    bottom: 0.489065em;
 }
 .sm_icons{
+    position: absolute;
     list-style-type: none;
+    margin: auto;
+    right: 0;
+    height: 80px;
+    width: 80%;
+    bottom: -1%;
 }
 .logo_footer{
     height: 70px;
@@ -33,7 +39,7 @@
     position: absolute;
     color: azure;
     top: 16%;
-    right: 5.5%;
+    right: 6.5%;
     
 }
 
@@ -59,7 +65,7 @@
     position: absolute;
     color: azure;
     top: 16%;
-    right: 8%;
+    right: 10%;
 }
 
 .Insta:hover{

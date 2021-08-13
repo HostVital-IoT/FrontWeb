@@ -4,24 +4,24 @@ import Footer from "../../components/footer/footer";
 import "./Doctor.css";
 
 
-const Doctor = (props) =>{
-    return(
+const Doctor = (props) => {
+    return (
         <React.Fragment>
-        <Header></Header>
-        <div className="doctorContainer"><div className="doctorimg">
-            <img src="https://i.ytimg.com/vi/esOcn5y86mM/hqdefault.jpg" alt="" />
+            <Header></Header>
+            <div className="doctorContainer"><div className="doctorimg">
+                <img src="https://i.ytimg.com/vi/esOcn5y86mM/hqdefault.jpg" alt="" />
             </div>
 
-            <div className="doctorname">
-                <h3>Dr Example</h3>
-            </div>
+                <div className="doctorname">
+                    <h3>Emilio Soto</h3>
+                </div>
 
-            <div className="doctorrating">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
+                <div className="doctorrating">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
 
                 </div>
 
@@ -31,7 +31,7 @@ const Doctor = (props) =>{
 
                 <div className="dr"></div>
             </div>
-        <Footer></Footer>
+            <Footer></Footer>
         </React.Fragment>
     );
 };

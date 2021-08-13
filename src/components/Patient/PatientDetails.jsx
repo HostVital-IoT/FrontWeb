@@ -1,6 +1,9 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import api from '../../libs/flaskAPI';
 import PatientUI from './PatientDetails_UI'
+
+const Title = "Patient's Data"
 
 class PatientDeatils extends React.Component {
 
@@ -36,7 +39,9 @@ class PatientDeatils extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <title>Patient Details</title>
+                <Helmet>
+                    <title>{Title}</title>
+                </Helmet>
                 <PatientUI patient={this.state.data}></PatientUI>
             </React.Fragment>
         )

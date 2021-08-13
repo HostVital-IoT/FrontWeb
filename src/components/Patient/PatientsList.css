@@ -5,7 +5,7 @@
 .PatientsList__search-bar label{
     position: absolute;
     margin:auto;
-    top: 1.5em;
+    top: 1.2em;
     left: 45.6%;
     font-family: "Montserrat";
     font-size: 1.8em;
@@ -15,7 +15,7 @@
 .PatientsList__search-bar input {
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 2.5%;
     left: 0;
     right: 0;
     bottom: 79%;
@@ -136,7 +136,7 @@
 .np_Button{
     position: absolute;
     margin: auto;
-    top: 12%;
+    top: 14%;
     left: 47%;
     cursor: pointer;
     width: 140px;
