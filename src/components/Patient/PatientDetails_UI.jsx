@@ -1,5 +1,6 @@
 import React from 'react'
 import Patient from './Patient'
+import './PatientDetails.css'
 
 
 const PatientDetailsUI = (props) => {
@@ -152,5 +153,6 @@ const PatientDetailsUI = (props) => {
 	)
 }
 
+//<button className="Edit__Button">Configure</button>
 
 export default PatientDetailsUI

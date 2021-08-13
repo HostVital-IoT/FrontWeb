@@ -86,6 +86,7 @@
 }
 
 .blood__Pressure h4{
+    margin: auto;
     border-bottom: 1px solid white;
     padding-bottom: 15px;
 }
@@ -109,6 +110,7 @@
 }
 
 .oxygen__Level h4{
+    margin: auto;
     border-bottom: 1px solid white;
     padding-bottom: 15px;
 }
@@ -133,6 +135,14 @@
     position: relative;
     border-bottom: 1px solid white;
     padding-bottom: 15px;
+    margin: auto;
+}
+
+.sugar__Level h5{
+    position: absolute;
+    margin: auto;
+    top: 0.3em;
+    right: 5em;
 }
 
 .sugar__Level p{

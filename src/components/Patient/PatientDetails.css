@@ -1,0 +1,24 @@
+.Edit__Button{
+    position: absolute;
+    margin: auto;
+    top: 1em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 150px;
+    color: azure;
+    font-weight: 400;
+    font-size: larger;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    border: transparent;
+    background-color: rgb(13, 194, 226);
+}
+
+.Edit__Button:hover{
+    border:white;
+    font-weight:700;
+    background-color: rgb(19, 147, 170);
+    cursor: pointer;
+}

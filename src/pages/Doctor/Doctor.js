@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/header/header2";
 import Footer from "../../components/footer/footer";
+import { Link } from "react-router-dom";
 import "./Doctor.css";
 
 
@@ -9,27 +10,16 @@ const Doctor = (props) => {
         <React.Fragment>
             <Header></Header>
             <div className="doctorContainer"><div className="doctorimg">
-                <img src="https://i.ytimg.com/vi/esOcn5y86mM/hqdefault.jpg" alt="" />
+                <img src="https://img.gruporeforma.com/imagenes/960x640/6/63/5062370.jpg" alt="" />
             </div>
 
                 <div className="doctorname">
                     <h3>Emilio Soto</h3>
                 </div>
 
-                <div className="doctorrating">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FA_star.svg/1024px-FA_star.svg.png" alt="" />
-
-                </div>
-
-                <div className="drPatientsButton">
-                    <button>Patients</button>
-                </div>
-
-                <div className="dr"></div>
+                <Link to="/patients">
+                    <button className="dr__Button">Patients</button>
+                </Link>
             </div>
             <Footer></Footer>
         </React.Fragment>

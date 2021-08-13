@@ -5,6 +5,7 @@
 .doctorimg img{
     height: 200px;
     width: 200px;
+    object-fit: cover;
     border-radius: 100px;
     margin-top: 30px;
 }
@@ -14,18 +15,26 @@
     color: white;
     font-family: "Montserrat";
 }
-.doctorrating img{
-    height: 60px;
-
-}
-.drPatientsButton button{
-    margin-top: 50px;
+.dr__Button {
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 4em;
     border: white;
     color: white;
     background-color: #4BA59F;
-    height: 50px;
+    height: 40px;
     width: 110px;
     border-radius: 25px;
     font-size: large;
 
+}
+
+.dr__Button:hover{
+    background-color: #297973;
+    cursor: pointer;
+    z-index: 50;
 }
