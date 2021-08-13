@@ -16,8 +16,12 @@ function App() {
         <Route exact path="/login" component={LogIn}></Route>
         <Route exact path="/signup" component={SignUp}></Route>
         <Route exact path="/new/patient" component={NewPatient}></Route>
-        <Route exact path="/patients" component={Patients}></Route>
         <Route exact path="/doctor" component={Doctor}></Route>
+        <Route exact path="/patients" component={Patients}></Route>
+<<<<<<< HEAD
+=======
+        <Route exact path="/doctor" component={Doctor}></Route>
+>>>>>>> ad8bfd34c36ef38d15e64b99ed272c7dae02f9ba
         <Route exact path="/:patientId" component={PatientDetails}></Route>
       </Switch>
     </BrowserRouter>

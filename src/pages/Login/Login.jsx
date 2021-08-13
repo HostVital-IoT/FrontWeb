@@ -25,7 +25,9 @@ const LogIn = (props) => {
                     <Link to="/signup">
                         <p>Don't you have an account?</p>
                     </Link>
+                    <Link to="/doctor">
                     <input id="login" type="submit" value="Login" text="login" className="login_button" />
+                    </Link>
                 </form>
 
                 <div className="profile">

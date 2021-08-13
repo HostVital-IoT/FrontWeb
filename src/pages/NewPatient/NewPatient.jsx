@@ -2,7 +2,6 @@ import React from 'react'
 import api from '../../libs/flaskAPI'
 import Patient from '../../components/Patient/newPatient'
 import Header from '../../components/header/header2'
-import Footer from '../../components/footer/footer'
 import PatientForm from '../../components/Patient/PatientForm'
 import { Helmet } from 'react-helmet'
 import './NewPatient.css'
@@ -78,7 +77,6 @@ class NewPatient extends React.Component {
                     </div>
 
                 </div>
-                <Footer></Footer>
             </React.Fragment >
         )
     }
