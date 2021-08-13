@@ -6,7 +6,7 @@
     position: absolute;
     margin:auto;
     top: 0.8em;
-    left: 45.6%;
+    left: 45.2%;
     font-family: "Montserrat";
     font-size: 1.8em;
     color: azure;
@@ -16,10 +16,10 @@
     position: absolute;
     margin: auto;
     top:0;
-    left: 3%;
+    left: 0;
     right: 0;
     bottom: 75%;
-    width: 25%;
+    width: 30%;
     height: 40px;
     border-color: transparent;
     font-size: x-large;
