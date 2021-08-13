@@ -35,7 +35,10 @@ class PatientDeatils extends React.Component {
 
     render() {
         return (
-            <PatientUI patient={this.state.data}></PatientUI>
+            <React.Fragment>
+                <title>Patient Details</title>
+                <PatientUI patient={this.state.data}></PatientUI>
+            </React.Fragment>
         )
     }
 
