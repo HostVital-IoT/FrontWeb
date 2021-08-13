@@ -12,6 +12,7 @@ class PatientDeatils extends React.Component {
 
     componentDidMount() {
         this.fetchData()
+        this.setFetchInterval()
     }
 
     fetchData = async () => {
@@ -22,6 +23,14 @@ class PatientDeatils extends React.Component {
         } catch (error) {
             this.setState({ loading: false, error: error })
         }
+    }
+
+    setFetchInterval() {
+        this.interval = setInterval(this.fetchData, 3000)
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval)
     }
 
     render() {
