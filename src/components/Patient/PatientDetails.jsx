@@ -12,16 +12,25 @@ class PatientDeatils extends React.Component {
 
     componentDidMount() {
         this.fetchData()
+        this.setFetchInterval()
     }
 
     fetchData = async () => {
         this.setState({ loading: true, error: null })
         try {
-            const data = await api.badges.read(this.props.match.params.badgeId)
+            const data = await api.patients.read(this.props.match.params.patientId)
             this.setState({ loading: false, data: data })
         } catch (error) {
             this.setState({ loading: false, error: error })
         }
+    }
+
+    setFetchInterval() {
+        this.interval = setInterval(this.fetchData, 3000)
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval)
     }
 
     render() {

@@ -10,7 +10,7 @@ class PatientForm extends React.Component {
                         <div className="form-group">
                             <input
                                 type="text"
-                                className="form-control"
+                                className="pf_control-form"
                                 name="profile_picture"
                                 placeholder="Profile Picture"
                                 onChange={this.props.onChange}
@@ -20,7 +20,7 @@ class PatientForm extends React.Component {
                         <div className="form-group">
                             <input
                                 type="text"
-                                className="form-control"
+                                className="pf_control-form"
                                 name="header_img"
                                 placeholder="Header Image"
                                 onChange={this.props.onChange}
@@ -30,7 +30,7 @@ class PatientForm extends React.Component {
                         <div className="form-group">
                             <input
                                 type="text"
-                                className="form-control"
+                                className="pf_control-form"
                                 name="name"
                                 placeholder="Name"
                                 onChange={this.props.onChange}
@@ -40,7 +40,7 @@ class PatientForm extends React.Component {
                         <div className="form-group">
                             <input
                                 type="text"
-                                className="form-control"
+                                className="pf_control-form"
                                 name="age"
                                 placeholder="Age"
                                 onChange={this.props.onChange}
@@ -50,7 +50,7 @@ class PatientForm extends React.Component {
                         <div className="form-group">
                             <input
                                 type="text"
-                                className="form-control"
+                                className="pf_control-form"
                                 name="illness"
                                 placeholder="Illness"
                                 onChange={this.props.onChange}
@@ -58,14 +58,18 @@ class PatientForm extends React.Component {
                             />
                         </div>
                         <div className="form-group">
-                            <input
+                            <select
                                 type="text"
-                                className="form-control"
+                                className="form-select"
                                 name="status"
-                                placeholder="Status"
                                 onChange={this.props.onChange}
                                 value={this.props.formValues.status}
-                            />
+                            >
+                                <option selected>STATUS</option>
+                                <option value="Good">Good</option>
+                                <option value="Stable">Stable</option>
+                                <option value="Critical">Critical</option>
+                            </select>
                         </div>
                         <button type="submit" className="Submit__button">{this.props.buttonText}</button>
                     </form>

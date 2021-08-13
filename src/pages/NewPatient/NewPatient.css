@@ -1,129 +1,54 @@
 .newPatientForm{
-    margin: 0 auto;
+    position: relative;
+    margin: auto;
+    top: 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 25px;
-    width: 400px;
-    height: 620px;
+    background-color: transparent;
+    width: 100%;
+    height: 980px;
     margin-top: -15px;
-
 }
+
+.Badge__inForm{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 40em;
+    bottom: 0;
+    width: 400px;
+    height: 520px;
+}
+
+.Form__inForm{
+    
+    position: absolute;
+    margin: auto;
+    top: -5em;
+    left: 40em;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 520px;
+}
+
+.Form__inForm h2{
+    color: azure;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .titlePatientContainer{
     z-index: 2;
 }
+
 .titlePatientContainer h2{
-    
     z-index: 3;
     position: relative;
 }
 
-.Badge__header img{
-    
-    width: 100%;
-    height: 250px;
-    z-index: 0;
-    margin-top: -52px;
-    border-top-left-radius:25px ;
-    border-top-right-radius: 25px;
-}
 
-.form-group{
-    color: white;
-}
-.form-group input{
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    width: 200px;
-    height: 15px;
-    
-}
-
-.Form button{
-    border-radius: 30px;
-    width: 150px;
-    background-color: rgb(16, 86, 150);
-    color: white;
-    height: 35px;
- }
-
-.Badge__info{
-    margin-top: -10px;
-    color: white;
-}
-
-.Badge__userImage img{
-width: 150px;
-height: 150px;
-border-radius: 75px;
-z-index: 1;
-
-}
-
-.Badge__userImage{
-    margin-top: -180px;
-}
-
-h2{
-    color: white;
-}
-
-.Badge__username{
-    margin-top: 50px;
-}
-.Badge__username{
-    color: white;
-
-}
-
-.nameForm{
-    background-color: rgba(196, 196, 196, 0.774);
-    border-radius: 45px;
-    border-color: transparent;
-    text-align: center;
-    height: 40px;
-    width: 250px;
-
-    font-size: larger;
-    font-family: "Gowun Batang", sans-serif;
-    border-style: solid;
-}
-
-.nameHolder{
-    font-size: large;
-    font-family: "Gowun Batang", sans-serif;
-    color: white;
-}
-
-.ageForm{
-    background-color: rgba(196, 196, 196, 0.774);
-    border-radius: 45px;
-    border-color: transparent;
-    text-align: center;
-    height: 40px;
-    width: 250px;
-
-    font-size: larger;
-    font-family: "Gowun Batang", sans-serif;
-    border-style: solid;
-}
-
-.illnessForm{
-    background-color: rgba(196, 196, 196, 0.774);
-    border-radius: 45px;
-    border-color: transparent;
-    text-align: center;
-    height: 40px;
-    width: 250px;
-
-    font-size: larger;
-    font-family: "Gowun Batang", sans-serif;
-    border-style: solid;
-}
-
-.imageForm{
-    text-align: center;
-    color: white;
-    justify-content: center;
-    margin-left: 70px;
-}
