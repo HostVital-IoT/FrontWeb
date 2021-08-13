@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
 
-body {
-    background-image: url("https://images5.alphacoders.com/846/846619.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position-y: -200px;
-  }
-
 .Sign_up{
     position: relative;
     width: 450px;

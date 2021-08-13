@@ -3,7 +3,10 @@ import api from '../../libs/flaskAPI'
 import Patient from '../../components/Patient/newPatient'
 import Header from '../../components/header/header2'
 import PatientForm from '../../components/Patient/PatientForm'
+import { Helmet } from 'react-helmet'
 import './NewPatient.css'
+
+const Title = "New Patient"
 
 class NewPatient extends React.Component {
 
@@ -48,6 +51,9 @@ class NewPatient extends React.Component {
     render() {
         return (
             <React.Fragment >
+                <Helmet>
+                    <title>{Title}</title>
+                </Helmet>
                 <Header></Header>
                 <div className="newPatientForm">
 

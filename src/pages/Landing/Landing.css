@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda&display=swap');
 
-Body{
-    overflow-y: auto;
+body {
+    background-image: url("https://images5.alphacoders.com/846/846619.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -200px;
+    width: 100%;
+    height: 100%;
+  }
+
+.Landing_page{
+    overflow: hidden;
 }

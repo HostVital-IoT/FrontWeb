@@ -10,8 +10,9 @@
 }
 
 .doctorname{
-    font-size: larger;
+    font-size: x-large;
     color: white;
+    font-family: "Montserrat";
 }
 .doctorrating img{
     height: 60px;

@@ -4,11 +4,17 @@ import Footer from '../../components/footer/footer.jsx'
 import { Link } from 'react-router-dom'
 import { BsShieldLockFill } from 'react-icons/bs'
 import { FaUserCircle } from 'react-icons/fa'
+import { Helmet } from 'react-helmet'
 import './Login.css'
+
+const Title = "Sign In"
 
 const LogIn = (props) => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>{Title}</title>
+            </Helmet>
             <Header></Header>
             <div className="Login">
                 <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV" />

@@ -5,13 +5,18 @@ import { BsShieldLockFill } from 'react-icons/bs'
 import { FaUserCircle } from 'react-icons/fa'
 import { IoIosMail } from 'react-icons/io'
 import { RiKeyFill } from 'react-icons/ri'
+import { Helmet } from 'react-helmet'
 import './Signup.css'
+
+const Title = "Sign Up"
 
 const SignUp = (props) => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>{Title}</title>
+            </Helmet>
             <Header></Header>
-
             <div className="Sign_up">
                 <img src="https://res.cloudinary.com/dvabvj55g/image/upload/v1627926350/media/HV_vxhxzk.png" alt="HV" />
                 <form action="">

@@ -37,23 +37,24 @@
     position: relative;
     top: -7em;
     font-size: x-large;
+    font-family: "Montserrat";
 }
 
 .n_Badge__username p {
     position: relative;
-    top: -8.5em;
+    top: -10em;
     font-size: larger;
     color: rgba(0, 0, 0, 0.473);
 }
 
 .n_Badge__info h4{
     position: relative;
-    top: -5em;
+    top: -2em;
 }
 
 .n_Badge__info p{
     position: relative;
-    top: -7em;
+    top: -9em;
     font-size: larger;
 }
 

@@ -5,7 +5,11 @@
 .PatientsList__search-bar label{
     position: absolute;
     margin:auto;
+<<<<<<< HEAD
     top: 0.8em;
+=======
+    top: 1.2em;
+>>>>>>> ad8bfd34c36ef38d15e64b99ed272c7dae02f9ba
     left: 45.6%;
     font-family: "Montserrat";
     font-size: 1.8em;
@@ -15,8 +19,13 @@
 .PatientsList__search-bar input {
     position: absolute;
     margin: auto;
+<<<<<<< HEAD
     top:0;
     left: 3%;
+=======
+    top: 2.5%;
+    left: 0;
+>>>>>>> ad8bfd34c36ef38d15e64b99ed272c7dae02f9ba
     right: 0;
     bottom: 75%;
     width: 25%;
@@ -137,7 +146,7 @@
 .np_Button{
     position: absolute;
     margin: auto;
-    top: 12%;
+    top: 14%;
     left: 47%;
     cursor: pointer;
     width: 140px;
