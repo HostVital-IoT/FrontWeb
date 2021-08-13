@@ -32,14 +32,9 @@
     font-size: large;
 
 }
-<<<<<<< HEAD
 
 .dr__Button:hover{
     background-color: #297973;
     cursor: pointer;
     z-index: 50;
-=======
-.drPatientsButton button:hover{
-    background-color: #01ddd2;
->>>>>>> 57dedb305d0dd8414b0d0b2815e50fa016a96241
 }
