@@ -6,7 +6,6 @@ const PatientDetailsUI = (props) => {
 	const patient = props.patient
 
 	const handleBlood = (color) => {
-
 		if (patient.age >= 8 && 17 >= patient.age) {
 
 			if (patient.blood_pressure >= 80 && 100 >= patient.blood_pressure) {
@@ -102,13 +101,13 @@ const PatientDetailsUI = (props) => {
 	}
 
 	const handleOxygen = (color) => {
-		if (patient.oxygen_level <= 100 && 95 <= patient.oxygen_level) {
+		if (patient && patient.oxygen_level < 101 && patient.oxygen_level > 95) {
 			color = "#2DD25B"
 			return color
-		} else if (patient.oxygen_level <= 94 && 91 <= patient.oxygen_level) {
+		} else if (patient.oxygen_level < 95 && patient.oxygen_level > 90  ) {
 			color = "#E8E14B"
 			return color
-		} else if (patient.oxygen_level <= 90 && 80 <= patient.oxygen_level) {
+		} else if (patient.oxygen_level < 90 && patient.oxygen_level > 80) {
 			color = "#CE2727"
 			return color
 		}
@@ -116,13 +115,17 @@ const PatientDetailsUI = (props) => {
 	}
 
 	const handleSugar = (color) => {
-		if (patient.sugar_level >= 70 && 100 >= patient.sugar_level) {
+		
+		if (patient.sugar_level > 71 && patient.sugar_level < 101  ) {
 			color = "#2DD25B"
 			return color
-		} else if (patient.sugar_level >= 101 && 126 >= patient.sugar_level) {
+		} else if (patient.sugar_level >= 102 && patient.sugar_level < 125 ) {
 			color = "#E8E14B"
 			return color
-		} else if (patient.sugar_level >= 127) {
+		} else if (patient.sugar_level > 126) {
+			color = "#CE2727"
+			return color
+		}else{
 			color = "#CE2727"
 			return color
 		}
@@ -138,8 +141,8 @@ const PatientDetailsUI = (props) => {
 					blood_pressure={patient.blood_pressure}
 					oxygen_level={patient.oxygen_level}
 					sugar_level={patient.sugar_level}
-					blood={handleBlood(patient)}
-					oxygen={handleOxygen(patient)}
+					blood={handleBlood(patient.blood_pressure)}
+					oxygen={handleOxygen(patient.oxygen_level)}
 					sugar={handleSugar(patient.sugar_level)}
 				></Patient>
 			</div>
