@@ -5,7 +5,7 @@
 .PatientsList__search-bar label{
     position: absolute;
     margin:auto;
-    top: 1.5em;
+    top: 0.8em;
     left: 45.6%;
     font-family: "Montserrat";
     font-size: 1.8em;
@@ -15,17 +15,18 @@
 .PatientsList__search-bar input {
     position: absolute;
     margin: auto;
-    top: 0;
-    left: 0;
+    top:0;
+    left: 3%;
     right: 0;
-    bottom: 79%;
-    width: 30%;
+    bottom: 75%;
+    width: 25%;
     height: 40px;
     border-color: transparent;
     font-size: x-large;
     font-weight: 200;
     font-family: "Montserrat";
 }
+
 
 .PatientsListItem {
     background-color: aliceblue;

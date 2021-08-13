@@ -28,3 +28,6 @@
     font-size: large;
 
 }
+.drPatientsButton button:hover{
+    background-color: #01ddd2;
+}
